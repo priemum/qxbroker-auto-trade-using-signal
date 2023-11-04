@@ -6,7 +6,7 @@ const cheerio = require("cheerio");
 const delay = require("delay");
 const chalk = require("chalk");
 const readlineSync = require("readline-sync");
-const nodeSchedule = require("node-schedule");
+const nodeSchedule = require("node-schedule");          
 const dotenv = require("dotenv");
 dotenv.config();
 const log = console.log;
